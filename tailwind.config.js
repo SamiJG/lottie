@@ -4,7 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lottiePink: "#f29fbf",
+        turquoise: "#82EDC9",
+      },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
